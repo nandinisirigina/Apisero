@@ -1,0 +1,26 @@
+package collections_practise;
+
+import java.util.ArrayList;
+
+public class addingelements_arraylist {
+
+	public static void main(String[] args) { 
+		ArrayList<Integer> numbers=new ArrayList();
+		numbers.add(1);
+		numbers.add(2);
+		numbers.add(3);
+		numbers.add(4);
+		ArrayList<Object> elements = new ArrayList<>();
+		elements.add("prakash");
+		elements.add("Nandini");
+		elements.addAll(numbers);
+		elements.add(1, "siva");
+		elements.addAll(2, numbers);
+		System.out.println(elements);
+
+		
+		 }
+
+	}
+
+
