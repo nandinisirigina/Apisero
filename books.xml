@@ -1,0 +1,29 @@
+<!DOCTYPE Books [
+<!ELEMENT Books (Book1,Book2)>
+<!ELEMENT Book1 (Title,Author,PublishingDate,Description,Price)>
+<!ELEMENT Book2 (Title,Author,PublishingDate,Description,Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT PublishingDate (#PCDATA)>
+<!ELEMENT Publication (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+]>
+<Books>
+    <Book1>
+        <Title>THis love that feels right</Title>
+        <Author>ravindrasingh</Author>
+        <PublishingDate>2013-05-23</PublishingDate>
+        <Publication></Publication>
+        <Description>Its about love story</Description>
+        <Price>200</Price>
+    </Book1>
+    <Book2>
+        <Title>Maha swetha</Title>
+        <Author>sudha murthy</Author>
+        <PublishingDate>2014-10-06</PublishingDate>
+        <Publication>SM</Publication>
+        <Description>A women how she deals with her problems in life</Description>
+        <Price>3000</Price>
+    </Book2>
+</Books>
